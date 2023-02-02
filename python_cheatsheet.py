@@ -48,7 +48,7 @@ print(first,'--', second)
 for indx, value in enumerate(l):
     print(f'{value} is at index :{indx}')
 l.append(9)
-l.insert(0, 'a')
+# l.insert(0, 'a')
 print(l)
 
 print('pop', l.pop(), '--l:', l)
@@ -215,12 +215,11 @@ class MyClass():
     def __init__(self, first_Arg):
         self.first_Arg = first_Arg
         print('initi class')
-        
+
     def method1(self):
         print(f'This is method 1 {self.first_Arg}')
-        
         while self.first_Arg
-        
+
 
 a = 23
 b = 'first atring'
