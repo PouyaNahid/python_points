@@ -32,6 +32,7 @@ print(l3)
 # using map function in coordinates with lambda add() function
 l3 = list(map(lambda x, y: x + y, l1, l2))
 print(l3)
+# [11, 13, 15, 17, 19, 21]
 
 # %% [markdown]
 # ### Filter
